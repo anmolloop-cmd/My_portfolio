@@ -20,18 +20,20 @@
   margin-top: 20px;
   font-size: 40px;
   font-weight: 400;
-  color: #868e96;
+  color: #000000;
   text-decoration: none;
 }
 
 .contact-detail:hover,
 .contact-detail-email:hover {
   color: black;
-  text-shadow: 2px 1px 2px #b5b5b5;
+  text-shadow: 2px 1px 2px #caff0c;
   transition: all 0.3s;
 }
 
 .contact-subtitle {
+  text-shadow: 2px 1px 2px #05cdff;
+  transition: all 0.3s;
   text-transform: uppercase;
 }
 

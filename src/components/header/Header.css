@@ -1,20 +1,22 @@
 /* header */
 
 .dark-menu {
-  background-color: #171c28 !important;
-  color: white;
+  background-color: #00ffdd !important;
+  color: rgb(0, 0, 0);
 }
 
 .dark-menu li a {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
 .dark-menu li a:hover {
-  background-color: #55198b !important;
+  background-color: #d8199f !important;
 }
 
 .header {
-  background-color: #fff;
+  background-color: rgb(63, 104, 218);
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -27,7 +29,7 @@
   overflow: hidden;
 }
 .grey-color {
-  color: #868e96;
+  color: #fffb00;
 }
 
 .header li a {
@@ -52,8 +54,11 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
+  font-family:"Gill Sans", sans-serif;;
+  font-size:xxx-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: cursive;
+  color:rgba(0, 0, 0, 0.781);
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;

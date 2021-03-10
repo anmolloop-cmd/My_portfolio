@@ -35,12 +35,14 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
-  color: black !important;
+  font-weight: bold;
+  color: rgb(65, 83, 243) !important;
 }
 
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+  color: rgb(65, 83, 243) !important;
 }
 
 .greeting-image-div > img {
@@ -61,13 +63,13 @@
     transform: rotate(0deg);
   }
   10% {
-    transform: rotate(-10deg);
+    transform: rotate(18deg);
   }
   20% {
-    transform: rotate(12deg);
+    transform: rotate(-10deg);
   }
   30% {
-    transform: rotate(-10deg);
+    transform: rotate(-12deg);
   }
   40% {
     transform: rotate(9deg);
@@ -83,8 +85,11 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
-  }
+    font-size: 45px;
+    color:royalblue;
+    font-size-adjust: initial;
+    font-style:bold; 
+}
   .greeting-text-p {
     font-size: 20px;
   }
