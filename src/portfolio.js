@@ -13,7 +13,7 @@ const greeting = {
   title: "Hi there!!",
   title1: "This is Anmol",
   subTitle: emoji(
-    "Tech Enthusiast!! Ready to learn Always!!"
+    "Tech Enthusiast!! Ready to learn Always...."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
